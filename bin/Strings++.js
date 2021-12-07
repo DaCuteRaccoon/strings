@@ -3,7 +3,7 @@
 */
 
 
-(function(){
+void (function(){
 undef = undefined
 // Type undef == undefined in the console, and you get true. How neat is that? You don't have to type all of undefined.
 
@@ -20,7 +20,7 @@ TRUE = true
 False = false
 FALSE = false
 
-return void 0
+return console.dir(void 0)
 })()
 
 
